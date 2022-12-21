@@ -11,6 +11,22 @@ body {
 	height: 250px;
 	border-radius: 50%;
 	background-color: #e74c3c;
+	animation-name: pohyb;
+	animation-duration: 2s;
+	animation-direction: alternate;
+	animation-iteration-count: infinite;
+}
+
+@keyframes pohyb {
+	0% {
+		background-color: orange;
+		transform: translate(0, 0);
+	}
+	
+	100% {
+		background-color: plum;
+		transform: translate(300px, 300px);
+	}
 }
 
 

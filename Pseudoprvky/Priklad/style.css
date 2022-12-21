@@ -8,6 +8,21 @@ body {
 
 /*************************************************/
 
+.odstavec1::first-letter {
+	color: rgb(144, 144, 203);
+	font-size: 30px;
+	font-weight: 600;
+}
+
+.odstavec2::first-line {
+	font-size: 20px;
+}
+
+h1::before {
+	content: "ssjdksf";
+	color: blanchedalmond;
+}
+
 /*
 CSS Selektory:
 
